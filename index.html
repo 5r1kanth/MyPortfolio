@@ -11,7 +11,7 @@
     <script src="https://kit.fontawesome.com/717ae98dc3.js" crossorigin="anonymous"></script>
 </head>
 <body>
-
+<div id="loader_bg">
     <div id="loader" class="logo-div" onload="preloader()">
         <a href="index.html">
         <svg id="logo" width="640" height="119" viewBox="0 0 640 119" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -37,6 +37,7 @@
         </svg>
         </a>
     </div>
+</div>
 
 <!-- ------------------Social Media ------------------- -->
     
@@ -273,10 +274,10 @@
     </div>
 </div>
 
-<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/i9FEct8dCso" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/i9FEct8dCso" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/i9FEct8dCso" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
- -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/i9FEct8dCso" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <!-- -------- Small Screen close and open icons -------- -->
 <script>
     var open = document.getElementById("openicon")
@@ -346,9 +347,11 @@
 
 <script>
     var loader = document.getElementById("loader");
+    var loader_bg = document.getElementById("loader_bg");
     var log = document.getElementById("logo");
     window.addEventListener("load",function(){
         loader.style.display = "none";
+        loader_bg.style.display = "none";
     })
 </script>
 
