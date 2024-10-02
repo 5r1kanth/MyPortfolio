@@ -50,8 +50,8 @@ body::-webkit-scrollbar {
     animation: logo-line 3s infinite forwards;
 }
 #logo path:nth-child(3){
-    stroke-dasharray: 246.02;
-    stroke-dashoffset: 246.02;
+    stroke-dasharray: 246.20;
+    stroke-dashoffset: 246.20;
     animation: logo-line 3s infinite forwards 0s;
 }
 #logo path:nth-child(4){
